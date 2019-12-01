@@ -46,25 +46,25 @@ public class SliderImageAdapter extends SliderViewAdapter<SliderImageAdapter.Sli
                     case 0:
                         Intent browserIntent_1 = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://www.mycash.co.id/"));
+                                Uri.parse("https://github.com/AzharRivaldi"));
                         context.startActivity(browserIntent_1);
                         break;
                     case 1:
                         Intent browserIntent_2 = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://www.mpm-finance.com/"));
+                                Uri.parse("https://github.com/AzharRivaldi"));
                         context.startActivity(browserIntent_2);
                         break;
                     case 2:
                         Intent browserIntent_3 = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://www.mycash.co.id/"));
+                                Uri.parse("https://github.com/AzharRivaldi"));
                         context.startActivity(browserIntent_3);
                         break;
                     case 3:
                         Intent browserIntent_4 = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://www.mpm-finance.com//MPMFinance_Vospay"));
+                                Uri.parse("https://github.com/AzharRivaldi"));
                         context.startActivity(browserIntent_4);
                         break;
                 }

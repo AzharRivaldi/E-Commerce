@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Shop</string>
+    <string name="salam_malam">Selamat Malam &#129303;</string>
+    <string name="salam_pagi">Selamat Pagi &#128522;</string>
+    <string name="salam_siang">Selamat Siang &#128526;</string>
+    <string name="salam_sore">Selamat Sore &#128513;</string>
+    <string-array name="fan_labels">
+        <item>FAVORITE</item>
+        <item>OFFICIAL STORE</item>
+        <item>INBOX</item>
+    </string-array>
+</resources>

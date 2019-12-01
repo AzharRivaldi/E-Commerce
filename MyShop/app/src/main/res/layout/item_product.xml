@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#FFFFFF">
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/itemproductImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/itemproductTextViewDisc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_margin="10dp"
+            android:background="@drawable/box_discount"
+            android:padding="5dp"
+            android:text="25%"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/itemproductTextViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="Raspberry Pi 3 Quad-Core 1GB RAM"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#3E3E3E" />
+
+        <TextView
+            android:id="@+id/itemproductTextViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 540.000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#E53D0C"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/itemproductTextViewPold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 610.000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#919191" />
+
+        <RatingBar
+            android:id="@+id/itemproductRatingBar1"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/black"
+            android:numStars="5"
+            android:progressTint="#ffd700"
+            android:rating="0"
+            android:secondaryProgressTint="#FFF6B0"
+            android:stepSize="0.5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_store_black" />
+
+                <TextView
+                    android:id="@+id/itemproductTextViewStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Elektron Robotic"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#2F2F2F" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

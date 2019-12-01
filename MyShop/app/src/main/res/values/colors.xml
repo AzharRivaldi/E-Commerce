@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#5e35b1</color>
+    <color name="colorPrimaryLight">#9575cd</color>
+    <color name="colorAccent">#7e57c2</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+
+    <color name="text">#FFFFFF</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="colorControlNormal">@color/textColorSecondary</color>
+    <color name="colorControlActivated">@color/colorAccent</color>
+    <color name="colorControlHighlight">@color/divider</color>
+
+    <color name="colorButtonNormal">#19C1B2</color>
+    <color name="colorSwitchThumbNormal">#19C1B2</color>
+    <color name="navigationBarColor">@color/colorPrimaryDark</color>
+
+    <color name="windowBackground">#DDDDDD</color>
+    <color name="lightBackground">#E0E0E0</color>
+    <color name="darkBackground">#424242</color>
+    <color name="drawerBackground">#FFfafafa</color>
+    <color name="rowBackground">#F2F2F2</color>
+
+    <color name="colorRed">#ffff0000</color>
+    <color name="colorGreen">#ff00cc00</color>
+    <color name="colorBlue">#3F51B5</color>
+
+    <integer-array name="button_colors">
+        <item>@color/colorPrimaryLight</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimary</item>
+    </integer-array>
+
+    <array name="button_icons">
+        <item>@drawable/ic_favorite</item>
+        <item>@drawable/ic_store</item>
+        <item>@drawable/ic_inbox</item>
+    </array>
+
+</resources>
